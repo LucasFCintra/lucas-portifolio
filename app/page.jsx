@@ -15,11 +15,12 @@ const Home = () => {
           <div className='text-center xl:text-left order-2 xl:order-none'>
             <span className='text-xl'>Software Developer</span>
             <h1 className='h1 mb-6'>
-              Hellow I'm <br/><span className='text-accent'>Lucas Cintra</span>
+              Olá, eu sou <br/><span className='text-accent'>Lucas Cintra</span>
             </h1>
-            <p className='max-w-[500px] mb-9 text-white/80'>
-              I excel at crafting elegant digital experiences and I am profecient in various programing languages and technologies.
+            <p className='max-w-[500px] mb-4 text-white/80'>
+              Transformo ideias em experiências digitais incríveis. Com habilidades avançadas em várias linguagens de programação e tecnologias, ofereço soluções personalizadas que encantam e engajam seus usuários.
             </p>
+            <p className='max-w[500px] mb-9 text-accent text-xl font-bold'>Vamos levar seu projeto para o próximo nível!</p>
             {/* btn and socials */}
             <div className='flex flex-col xl:flex-row items-center gap-8'>
               <Button

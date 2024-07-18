@@ -88,7 +88,7 @@ const education = {
       duration: '2019 - 2023'
     },
     {
-      instituition: "Instituto Samaritano de Ensino",
+      instituition: "Instituto Samaritano",
       degree: 'Ensino Médio',
       duration: '2016 - 2019'
     },
@@ -223,12 +223,12 @@ const Resume = () => {
                 <h3 className='text-4xl font-bold'>{education.title}</h3>
                 <p className='max-w-[600px] text-white/60 mx-auto xl:mc-0'>{education.description}</p>
                 <ScrollArea className='h-[400px]'>
-                  <ul className='grid grid-cols-1 lg:grid-cols-2 gap-[30px]'>
+                  <ul className='grid grid-cols-1 lg:grid-cols-2 gap-[10px]'>
                     {education.items.map((item, index) => {
                       return(
                         <li 
                           key={index}
-                          className='bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'
+                          className='bg-[#232329] h-[194px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'
                         >
                           <span className='text-accent'>{item.duration}</span>
                           <h3 className='text-xl max-w-[300px] min-h-[60px] text-center lg:text-left'>{item.degree}</h3>
@@ -284,7 +284,7 @@ const Resume = () => {
                         return(
                           <li key={index} className='flex items-center justify-center xl:justify-start gap-4'>
                             <span className='text-white/60'>{item.fieldName}</span>
-                            <span className='text-xl'>{item.fieldValue}</span>
+                            <span className='font-extrabold'>{item.fieldValue}</span>
                           </li>
                         )
                       })}

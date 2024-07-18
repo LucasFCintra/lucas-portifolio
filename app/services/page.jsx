@@ -21,13 +21,13 @@ const services = [
   },
   {
     num: '03',
-    title: 'Logo Design',
+    title: 'Landing Pages',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum molestias animi distinctio repellat accusantium.',
     href: '' 
   },
   {
     num: '04',
-    title: 'SEO',
+    title: 'Portifólio web',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum molestias animi distinctio repellat accusantium.',
     href: '' 
   }
