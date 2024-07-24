@@ -10,25 +10,25 @@ const services = [
   {
     num: '01',
     title: 'Web Development',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum molestias animi distinctio repellat accusantium.',
+    description: 'Desenvolvo sites e aplicativos personalizados, unindo design atraente e alta performance, com tecnologia avançada, segurança, escalabilidade e suporte contínuo para atender às suas necessidades.',
     href: '' 
   },
   {
     num: '02',
     title: 'UI/UX Design',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum molestias animi distinctio repellat accusantium.',
+    description: 'Crio interfaces intuitivas e atraentes, focando na experiência do usuário, com design inovador, usabilidade, acessibilidade e testes contínuos para garantir a satisfação e eficiência.',
     href: '' 
   },
   {
     num: '03',
     title: 'Landing Pages',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum molestias animi distinctio repellat accusantium.',
+    description: 'Desenvolvo landing pages personalizadas e atraentes, focadas em conversão, com design otimizado, carregamento rápido, responsividade e integração contínua para maximizar seus resultados.',
     href: '' 
   },
   {
     num: '04',
     title: 'Portifólio web',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum molestias animi distinctio repellat accusantium.',
+    description: 'Desenvolvo sites para portfólios web, combinando design elegante e funcionalidade, com navegação intuitiva, responsividade e otimização para destacar suas habilidades e conquistas.',
     href: '' 
   }
 ]

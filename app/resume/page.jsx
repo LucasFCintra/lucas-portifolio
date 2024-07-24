@@ -7,8 +7,8 @@ import { SiTailwindcss, SiNextdotjs } from 'react-icons/si'
 
 //about data
 const about = {
-  title: 'About me',
-  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum molestias animi distinctio repellat accusantium.',
+  title: 'Sobre mim',
+  description: 'Sou um jovem de 22 anos apaixonado por programação, em busca de empreender e crescer criando projetos inovadores para meus clientes, enquanto continuo aprendendo e expandindo minhas habilidades.',
   info: [
     {
       fieldName: 'Nome',
@@ -40,38 +40,28 @@ const about = {
 // experience data
 const experience = {
   icon: '/assets/resume/badge.svg',
-  title: 'My experience',
-  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum molestias animi distinctio repellat accusantium.',
+  title: 'Minha experiência',
+  description: 'Desenvolvedor com habilidades avançadas em várias linguagens de programação e tecnologias, pronto para transformar suas ideias em soluções que encantam e engajam seu clientes.',
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: 'Full Stack Developer',
-      duration: '2022 - present'
+      company: "Capgemini",
+      position: 'Pegasystems Developer',
+      duration: '2021 - present'
     },
     {
-      company: "Web Design Studio",
-      position: 'Front-end Developer',
-      duration: '2020 - 2022'
+      company: "Capgemini",
+      position: 'UI/UX Designer',
+      duration: '2021 - present'
     },
     {
-      company: "E-commerce Startup",
-      position: 'Freelance Web Developer',
-      duration: '2019 - 2020'
+      company: "Jussara",
+      position: 'Android Developer',
+      duration: '2020 - 2021'
     },
     {
-      company: "Marketing Startup",
-      position: 'Freelance Web Developer',
-      duration: '2018 - 2019'
-    },
-    {
-      company: "Marketing Startup",
-      position: 'Freelance Web Developer',
-      duration: '2018 - 2019'
-    },
-    {
-      company: "Marketing Startup",
-      position: 'Freelance Web Developer',
-      duration: '2018 - 2019'
+      company: "Jussara",
+      position: 'Analista de Sistemas',
+      duration: '2020 - 2020'
     },
   ]
 }
@@ -79,8 +69,8 @@ const experience = {
 // education data
 const education = {
   icon: '/assets/resume/cap.svg',
-  title: 'My education',
-  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum molestias animi distinctio repellat accusantium.',
+  title: 'Minha educação',
+  description: 'Formado em uma das melhores faculdades de tecnologia de São Paulo, completei diversos cursos e certificações profissionalizantes para aprimorar minhas habilidades e oferecer soluções de alta qualidade.',
   items: [
     {
       instituition: "Fatec Franca",
@@ -93,32 +83,33 @@ const education = {
       duration: '2016 - 2019'
     },
     {
-      instituition: "Codecademy",
-      degree: 'Front-end Track',
-      duration: '2016 - 2019'
+      instituition: "Udemy",
+      degree: 'Next.js',
+      duration: '2024'
     },
     {
-      instituition: "Udemy Course",
-      degree: 'UI/UX Course',
-      duration: '2016 - 2019'
+      instituition: "Udemy",
+      degree: 'Tailwind.css',
+      duration: '2024'
     },
     {
-      instituition: "Udemy Course",
-      degree: 'Next.js Course',
-      duration: '2016 - 2019'
+      instituition: "Udemy",
+      degree: 'Figma',
+      duration: '2024'
     },
     {
-      instituition: "Udemy Course",
-      degree: 'TailWind Course',
-      duration: '2016 - 2019'
+      instituition: "Udemy",
+      degree: 'Node',
+      duration: '2024'
     },
+    
   ]
 }
 
 // skills data
 const skills = {
-  title: 'My Skills',
-  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum molestias animi distinctio repellat accusantium.',
+  title: 'Minhas habilidades',
+  description: 'Tenho expertise nas ferramentas exibidas nos cards abaixo, garantindo a entrega de projetos de alta performance que atendem aos requisitos dos clientes com eficiência, precisão e inovação.',
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -180,10 +171,10 @@ const Resume = () => {
           className='flex flex-col xl:flex-row gap-[60px]'
         >
           <TabsList className='flex flex-col w-full nax-w-[380px] mx-auto xl:mx-0 gap-6'>
-            <TabsTrigger value='experience'>Experience</TabsTrigger>
-            <TabsTrigger value='education'>Education</TabsTrigger>
-            <TabsTrigger value='skills'>Skills</TabsTrigger>
-            <TabsTrigger value='about'>About me</TabsTrigger>
+            <TabsTrigger value='experience'>Experiência</TabsTrigger>
+            <TabsTrigger value='education'>Educação</TabsTrigger>
+            <TabsTrigger value='skills'>Habilidades</TabsTrigger>
+            <TabsTrigger value='about'>Sobre</TabsTrigger>
           </TabsList>
 
           {/* content */}
